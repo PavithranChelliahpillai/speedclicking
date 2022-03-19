@@ -9,6 +9,7 @@ From here the application:
   <li>Waits 1000ms for the page to load</li>
   <li>Finds the click box by ID</li>
   <li>Begins clicking it repeatedly (optimisations and processes detailed below)</li>
+  <li>End result is scraped from website using ID yet again and is displayed in console</li>
 </ul>
 
 ## v3

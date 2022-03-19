@@ -38,10 +38,10 @@ If the element is not found, it return an error which is "caught" and parsing of
 
 ### How to use it
 If a NodeJS environment is set up, download the version file. <br>
-<ul>
-  <li>Install all dependencies using `npm` (`npm install puppeteer` is the only one). </li>
-  <li>Run it in console - `Ctrl+Shift+C` to open console (VSCode), then `node speedclicker<*version number*>.js`. </li>
-  <li>The file will execute! </li>
-  <li>If you would like to visually see what is happening, simply flip the following boolean from: <br>
+
+  Install all dependencies using `npm` (`npm install puppeteer` is the only one). <br>
+  Run it in console - `Ctrl+Shift+C` to open console (VSCode), then `node speedclicker*version number*.js`. <br>
+  The file will execute! <br><br>
+  If you would like to visually see what is happening, simply flip the following boolean from: <br>
   `const browser = await puppeteer.launch({headless:true});` → `const browser = await puppeteer.launch({headless:false});`
-</ul>
+

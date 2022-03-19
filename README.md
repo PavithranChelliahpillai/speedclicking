@@ -21,6 +21,7 @@ However, there are two issues that arise:
   <li>Checking repeatedly for an element that is known to exist for 5 seconds long is purposeless</li>
 </ul>
 If the element is not found, it return an error which is "caught" and parsing of the results ensues. <br>
+
 ### v2
 ##### Best attempt: 107 clicks in 5 seconds (41% better than the best human clicker)
 Version 2 is the same as version 1, except this time, a screenshot is taken at the end of the process to show what the webpage shows to the user. <br>

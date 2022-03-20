@@ -22,6 +22,16 @@ Screenshotting result → scraping data from the site and directly logging it to
 
 It is clear that the optimisations have worked heavily. One further optimisation that removes a sense of user connection is removing the console log and counter elements. These elements waste computing time just to show the user what is happening behind the scenes. <br>
 
+## v4
+##### Adapted to cookie clicker!
+Version 4 takes clicking to the next level with cookie clicker. <br>
+The majority of the algorithms and ideas remain the same however this time: <br>
+<ul>
+  <li>Greedy algorithm to buy the most expensive "enhancer" product every 10s</li>
+  <li>Timed loop to prevent overflow and accidental mass spamming issues</li>
+  <li>Multilevel clicking to simultaneously get cookies whiles enhancing</li>
+</ul>
+
 ## v2
 ##### Best attempt: 107 clicks in 5 seconds (41% better than the best human clicker)
 Version 2 is the same as version 1, except this time, a screenshot is taken at the end of the process to show what the webpage shows to the user. <br>
